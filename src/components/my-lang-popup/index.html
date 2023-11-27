@@ -1,0 +1,29 @@
+<div>
+  <div class="top-bar" onclick="this.getRootNode().host.active = true">
+    <span>1</span>
+    <span>2</span>
+  </div>
+  <div class="lang-popup-wrapper popup">
+    <div class="title"></div>
+    <div class="lang-item" langKey="EN">
+      <span class="flag">EN</span>
+      <span class="txt">English</span>
+    </div>
+    <div class="lang-item" langKey="CN">
+      <span class="flag">CN</span>
+      <span class="txt">中文</span>
+    </div>
+    <div class="lang-item" langKey="FR">
+      <span class="flag">FR</span>
+      <span class="txt">Francais</span>
+    </div>
+    <div>
+      <button class="confirm-btn">
+        getLocalizedStrByKey(I18NKeys.COMMON_CONFIRM)
+      </button>
+      <button class="cancel-btn">
+        getLocalizedStrByKey(I18NKeys.COMMON_CANCEL)
+      </button>
+    </div>
+  </div>
+</div>
